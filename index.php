@@ -1,4 +1,11 @@
 <?php
+//for scaffolding purposes
+if($_SERVER['HTTP_HOST'] == "localhost"){
+	$bibleexchange_version = "bibleexchange";
+}else{
+	$bibleexchange_version = "bibleexchange-production";
+}
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
@@ -18,7 +25,7 @@
 |
 */
 
-require __DIR__.'/../bibleexchange/bootstrap/autoload.php';
+require __DIR__.'/../'.$bibleexchange_version.'/bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +39,7 @@ require __DIR__.'/../bibleexchange/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bibleexchange/bootstrap/app.php';
+$app = require_once __DIR__.'/../'.$bibleexchange_version.'/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
