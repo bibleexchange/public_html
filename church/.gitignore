@@ -1,13 +1,5 @@
 # Just stuff not necessary to store on github
-baker.church/**
-camp-connexion/**
-church-office/**
-delightful/**
-derocher.me/**
-dogwoodchurch.us/**
-mch/**
-rick.derocher.me/**
-
+church/mp3/**
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -51,5 +43,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-w
-/uploads
