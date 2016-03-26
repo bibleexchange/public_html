@@ -3,7 +3,7 @@
 if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] == "localhost"){
 	$bibleexchange_version = "bibleexchange";
 }else{
-	$bibleexchange_version = "bibleexchange";//bibleexchange-production
+	$bibleexchange_version = "bibleexchange-production";//bibleexchange-production
 }
 
 /**
