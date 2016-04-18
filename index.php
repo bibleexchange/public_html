@@ -1,6 +1,6 @@
 <?php
 //for scaffolding purposes
-if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] == "localhost"){
+if(isset($_SERVER['HTTP_HOST']) && substr($_SERVER['HTTP_HOST'],0,9) == "localhost"){
 	$bibleexchange_version = "bibleexchange";
 }else{
 	$bibleexchange_version = "bibleexchange-production";//bibleexchange-production
