@@ -1,9 +1,9 @@
 <?php
 //for scaffolding purposes
 if(isset($_SERVER['HTTP_HOST']) && substr($_SERVER['HTTP_HOST'],0,9) == "localhost"){
-	$bibleexchange_version = "bibleexchange";
+	$bibleexchange_version = "bibleexchange-production";
 }else{
-	$bibleexchange_version = "bibleexchange";//bibleexchange-production
+	$bibleexchange_version = "bibleexchange-production";//bibleexchange-production
 }
 
 /**
