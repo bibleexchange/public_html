@@ -55,7 +55,7 @@ class Typecase_Customizer extends Typecase {
 		$this->theme_font_locations = $this->get_theme_font_locations();
 
 		// bail if no theme font locations
-		if( $theme_font_locations === false ){
+		if( $this->theme_font_locations === false ){
 
 			return;
 
@@ -91,7 +91,7 @@ class Typecase_Customizer extends Typecase {
 		add_action( 'admin_menu', array( &$this, 'theme_font_customizer_menu' ) );
 		add_action( 'customize_register', array( &$this, 'theme_font_customizer' ) );
 		add_action( 'wp_head',array( &$this, 'add_selectors' ) );
-		add_action( 'customize_controls_enqueue_scripts', array( &$this, 'customizer_live_preview' ) );
+		add_action( 'customize_preview_init', array( &$this, 'customizer_live_preview' ) );
 
 	}
 
@@ -104,7 +104,7 @@ class Typecase_Customizer extends Typecase {
 	* @uses Typecase_Customizer()
 	*
 	*/
-	public function &init() {
+	static function &init() {
 
 		static $instance = false;
 

@@ -69,6 +69,10 @@ The plugin fetches the latest list of fonts from Google every time you edit your
 
 == Changelog ==
 
+= 1.1.3 =
+* Fixed Customizer bug where you couldn't close Customizer after saving changes.
+*
+
 = 1.1.1 =
 * Fixed Customizer compatibility with older versions, it now works in WordPress 4.0 and 4.1
 

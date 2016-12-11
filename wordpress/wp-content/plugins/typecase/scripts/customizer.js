@@ -2,9 +2,8 @@
 
 // wait for window load - no iframe ready event (yet)
 jQuery(window).load(function () {
-	
 	// convert WordPress version to int
-	WPversion = parseInt( WPversion.toString() );
+	WPversion = parseFloat( WPversion.toString().substring( 0,3 ) );
 
 	//	stash the wp.customize object
     var api = wp.customize;
@@ -62,7 +61,7 @@ jQuery(window).load(function () {
 
 	// when the theme fonts panel link is clicked
     jQuery('#accordion-panel-theme_fonts').click(function () {
-		
+
 		// check if at least version 4.1 wp.customize.section added in 4.1
 		if ( WPversion >= 4.1 ) {
 			

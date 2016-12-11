@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Amalie Lite\n"
+"POT-Creation-Date: 2016-07-05 09:00+0200\n"
+"PO-Revision-Date: 2016-07-05 09:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_nx;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: admin/admin.php:7
+msgid "Welcome to Amalie Lite"
+msgstr ""
+
+#: admin/admin.php:7
+msgid "Theme Info"
+msgstr ""
+
+#: admin/admin.php:17
+#, php-format
+msgid "Welcome to %1s %2s"
+msgstr ""
+
+#: admin/admin.php:25
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: admin/admin.php:31 inc/customizer.php:200
+msgid "Theme Documentation"
+msgstr ""
+
+#: admin/admin.php:34
+msgid ""
+"Please check the documentation to get better overview of how the theme is "
+"structured."
+msgstr ""
+
+#: admin/admin.php:38
+msgid "Visit Documentation"
+msgstr ""
+
+#: admin/admin.php:44
+msgid "Theme Options"
+msgstr ""
+
+#: admin/admin.php:47
+msgid "Click \"Customize\" to open the Customizer."
+msgstr ""
+
+#: admin/admin.php:51
+msgid "Customize"
+msgstr ""
+
+#: admin/admin.php:57 inc/customizer.php:67
+msgid "Amalie Pro"
+msgstr ""
+
+#: admin/admin.php:60
+msgid ""
+"Full version of this theme includes additional features; additional page "
+"templates, custom widgets, additional front page options, different blog "
+"options, different theme options, WooCommerce support, color options & "
+"premium theme support."
+msgstr ""
+
+#: admin/admin.php:64 inc/customizer.php:103
+msgid "Read more about Amalie"
+msgstr ""
+
+#: admin/admin.php:70
+msgid "Theme Screenshot"
+msgstr ""
+
+#: admin/admin.php:77
+#, php-format
+msgid "%1s is proudly brought to you by %2s. If you like %3s: %4s."
+msgstr ""
+
+#: admin/admin.php:77 inc/customizer.php:202
+msgid "Rate this theme"
+msgstr ""
+
+#: archive.php:48 index.php:45 search.php:37
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:49 index.php:46 search.php:38
+msgid "Next page"
+msgstr ""
+
+#: archive.php:50 content-front-page.php:30 content-front-page.php:51
+#: content-link.php:39 content-page.php:28 content-quote.php:32
+#: content-quote.php:61 content.php:45 image.php:62 index.php:47 search.php:39
+msgid "Page"
+msgstr ""
+
+#: author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: author-bio.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:27
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: content-front-page.php:26 content-front-page.php:47 content-link.php:35
+#: content-page.php:24 content-quote.php:28 content-quote.php:57 content.php:41
+#: image.php:58
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: content-link.php:30 content-quote.php:23 content-quote.php:52 content.php:36
+#: inc/template-tags.php:240
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: content-link.php:55 content-page.php:34 content-quote.php:78
+#: content-search.php:27 content-search.php:32 content.php:60 image.php:70
+msgid "Edit"
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:14
+msgid "https://www.anarieldesign.com/amalie-lite-free-wordpress-theme/"
+msgstr ""
+
+#: footer.php:14
+#, php-format
+msgid "Theme: %1$s."
+msgstr ""
+
+#: functions.php:71
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:72
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:111
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:113
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:178
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:179
+msgid "collapse child menu"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:45
+msgid "Menu and widgets"
+msgstr ""
+
+#: image.php:23
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:23
+msgid "Next Image"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Front Page Featured Page"
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Featured Page"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: inc/customizer.php:46 inc/customizer.php:54
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid ""
+"Full version of this theme includes additional features; additional page "
+"templates, custom widgets, additional front page widgetized areas, different "
+"blog options, different theme options, WooCommerce support, color options & "
+"premium theme support."
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Additional Features:"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Additional Page Templates"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Several additional widget areas"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Different Blog Options & Layouts"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Different Theme Options"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "WooCommerce Support"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Color Options"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Premium Theme Support"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Pro Features"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Upgrade to Amalie Pro"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Theme Related Links:"
+msgstr ""
+
+#: inc/customizer.php:198
+msgid "Theme Info Page"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:125
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:32
+msgid "Next"
+msgstr ""
+
+#: single.php:33
+msgid "Next post:"
+msgstr ""
+
+#: single.php:35
+msgid "Previous"
+msgstr ""
+
+#: single.php:36
+msgid "Previous post:"
+msgstr ""

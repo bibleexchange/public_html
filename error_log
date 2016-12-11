@@ -393,3 +393,10 @@
 [19-May-2016 18:53:46 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
 [26-May-2016 21:00:44 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
 [29-May-2016 13:51:24 UTC] PHP Fatal error:  Call to a member function notes() on a non-object in /home/luke1915/bibleexchange-production/app/Http/Controllers/UsersController.php on line 107
+[06-Jun-2016 09:28:45 UTC] PHP Fatal error:  Call to a member function notes() on a non-object in /home/luke1915/bibleexchange-production/app/Http/Controllers/UsersController.php on line 107
+[06-Jun-2016 15:28:36 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
+[07-Jun-2016 00:12:19 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
+[20-Jun-2016 00:38:04 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
+[20-Jun-2016 18:39:19 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
+[27-Jun-2016 14:19:28 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7
+[29-Jun-2016 11:51:27 UTC] PHP Fatal error:  Call to a member function is() on a non-object in /home/luke1915/bibleexchange-production/storage/framework/views/e4ca8a01fa5db4ce8d0cb22f2319e47d on line 7

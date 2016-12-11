@@ -180,6 +180,13 @@ function amalie_scripts() {
 	) );
 }
 add_action( 'wp_enqueue_scripts', 'amalie_scripts' );
+
+if (!function_exists('amalie_admin_scripts')) {
+	function amalie_admin_scripts($hook) {
+			wp_enqueue_style('amalie-admin', get_template_directory_uri() . '/admin/admin.css');
+	}
+}
+add_action('admin_enqueue_scripts', 'amalie_admin_scripts');
 /** 
 * JavaScript Detection. 
 * 
@@ -257,6 +264,11 @@ function amalie_search_form_modify( $html ) {
 	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
 }
 add_filter( 'get_search_form', 'amalie_search_form_modify' );
+/***** Include Admin *****/
+
+if (is_admin()) {
+	require_once('admin/admin.php');
+}
 /**
  * Implement the Custom Header feature.
  *

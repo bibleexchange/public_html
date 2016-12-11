@@ -11,7 +11,7 @@
   display: block;
   padding: 9px 0;
   color: white;
-  background: #43b3c4;
+  background: #000;
   -webkit-transition: background 0.15s ease-in-out;
   transition: background 0.15s ease-in-out;
 }
@@ -31,35 +31,12 @@
   transition: right 0.15s ease-in-out;
 }
 
-#accordion-section-author_colors .accordion-section-title,
-#accordion-section-author_colors .accordion-section-title:hover,
-#accordion-section-author_header_image .accordion-section-title,
-#accordion-section-author_header_image .accordion-section-title:hover,
-#accordion-section-author_background .accordion-section-title,
-#accordion-section-author_background .accordion-section-title:hover,
-#accordion-section-author_font .accordion-section-title,
-#accordion-section-author_font .accordion-section-title:hover,
-#accordion-section-author_display_control .accordion-section-title,
-#accordion-section-author_display_control .accordion-section-title:hover,
-#accordion-section-author_footer_text .accordion-section-title,
-#accordion-section-author_footer_text .accordion-section-title:hover {
-  background-image: url("../assets/images/gray-lines.png");
-  background-size: 100%;
+.customize-control.hide {
+  display: none !important;
 }
-#accordion-section-author_colors .accordion-section-title:after,
-#accordion-section-author_colors .accordion-section-title:hover:after,
-#accordion-section-author_header_image .accordion-section-title:after,
-#accordion-section-author_header_image .accordion-section-title:hover:after,
-#accordion-section-author_background .accordion-section-title:after,
-#accordion-section-author_background .accordion-section-title:hover:after,
-#accordion-section-author_font .accordion-section-title:after,
-#accordion-section-author_font .accordion-section-title:hover:after,
-#accordion-section-author_display_control .accordion-section-title:after,
-#accordion-section-author_display_control .accordion-section-title:hover:after,
-#accordion-section-author_footer_text .accordion-section-title:after,
-#accordion-section-author_footer_text .accordion-section-title:hover:after {
-  content: '\f023';
-  font-family: 'FontAwesome';
+
+#accordion-section-colors {
+  display: none !important;
 }
 
 /* Multiple select styles (for comments dropdown */
@@ -177,11 +154,11 @@
   border: 1px solid #aaa;
   border-radius: 0;
   box-shadow: none;
-  background: white url("multiple-select.png") no-repeat 100% -22px;
+  background: #fff url("multiple-select.png") no-repeat 100% -22px;
   background: url("multiple-select.png") no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
   background: url("multiple-select.png") no-repeat 100% -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
-  background: url("multiple-select.png") no-repeat 100% -22px, -webkit-linear-gradient(top, white 85%, #eeeeee 99%);
-  background: url("multiple-select.png") no-repeat 100% -22px, linear-gradient(top, white 85%, #eeeeee 99%);
+  background: url("multiple-select.png") no-repeat 100% -22px, -webkit-linear-gradient(top, #ffffff 85%, #eeeeee 99%);
+  background: url("multiple-select.png") no-repeat 100% -22px, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
 }
 
 .ms-search, .ms-search input {

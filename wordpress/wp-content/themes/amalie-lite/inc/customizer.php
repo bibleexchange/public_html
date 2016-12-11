@@ -55,6 +55,67 @@ function amalie_customize_register( $wp_customize ) {
 	 'section'  => 'amalie_logo_section',
 	 'settings' => 'amalie_logo',
    ) ) );
+
+	/***** Register Custom Controls *****/
+
+	class Amalie_Upgrade extends WP_Customize_Control {
+		public function render_content() {  ?>
+			<p class="didi-upgrade-thumb">
+				<img src="<?php echo get_template_directory_uri(); ?>/screenshot.png" />
+			</p>
+			<p class="customize-control-title didi-upgrade-title">
+				<?php esc_html_e('Amalie Pro', 'amalie'); ?>
+			</p>
+			<p class="textfield didi-upgrade-text">
+				<?php esc_html_e('Full version of this theme includes additional features; additional page templates, WooCommerce support, color options & premium theme support.', 'amalie'); ?>
+			</p>
+			<p class="customize-control-title didi-upgrade-title">
+				<?php esc_html_e('Additional Features:', 'amalie'); ?>
+			</p>
+			<ul class="didi-upgrade-features">
+				<li class="didi-upgrade-feature-item">
+					<?php esc_html_e('Additional Page Templates', 'amalie'); ?>
+				</li>
+				<li class="didi-upgrade-feature-item">
+					<?php esc_html_e('WooCommerce Support', 'amalie'); ?>
+				</li>
+				<li class="didi-upgrade-feature-item">
+					<?php esc_html_e('Color Options', 'amalie'); ?>
+				</li>
+				<li class="didi-upgrade-feature-item">
+					<?php esc_html_e('Premium Theme Support', 'amalie'); ?>
+				</li>
+			</ul>
+			<p class="didi-upgrade-button">
+				<a href="http://www.anarieldesign.com/themes/personal-blog-wordpress-theme/" target="_blank" class="button button-secondary">
+					<?php esc_html_e('Read more about Amalie', 'amalie'); ?>
+				</a>
+			</p><?php
+		}
+	}
+
+	/***** Add Sections *****/
+
+	$wp_customize->add_section('amalie_upgrade', array(
+		'title' => esc_html__('Pro Features', 'amalie'),
+		'priority' => 300
+	) );
+
+	/***** Add Settings *****/
+
+	$wp_customize->add_setting('amalie_options[premium_version_upgrade]', array(
+		'default' => '',
+		'type' => 'option',
+		'sanitize_callback' => 'esc_attr'
+	) );
+
+	/***** Add Controls *****/
+
+	$wp_customize->add_control(new Amalie_Upgrade($wp_customize, 'premium_version_upgrade', array(
+		'section' => 'amalie_upgrade',
+		'settings' => 'amalie_options[premium_version_upgrade]',
+		'priority' => 1
+	) ) );
 }
 add_action( 'customize_register', 'amalie_customize_register', 11 );
 
@@ -107,3 +168,26 @@ function amalie_customize_preview_js() {
 	wp_enqueue_script( 'amalie-customize-preview', get_template_directory_uri() . '/js/customize-preview.js', array( 'customize-preview' ), '20141216', true );
 }
 add_action( 'customize_preview_init', 'amalie_customize_preview_js' );
+/***** Enqueue Customizer CSS *****/
+
+function amalie_customizer_base_css() {
+	wp_enqueue_style('amalie-customizer', get_template_directory_uri() . '/admin/customizer.css', array());
+}
+add_action('customize_controls_print_styles', 'amalie_customizer_base_css');
+/***** Enqueue Customizer JS *****/
+
+function amalie_customizer_js() {
+	wp_enqueue_script('amalie-customizer', get_template_directory_uri() . '/js/amalie-customizer.js', array(), '1.0.0', true);
+	wp_localize_script('amalie-customizer', 'amalie_links', array(
+		'upgradeURL' => esc_url('http://www.anarieldesign.com/themes/personal-blog-wordpress-theme/'),
+		'upgradeLabel' => esc_html__('Upgrade to Amalie Pro', 'amalie'),
+		'title'	=> esc_html__('Theme Related Links:', 'amalie'),
+		'themeURL' => esc_url('http://www.anarieldesign.com/themes/personal-blog-wordpress-theme/'),
+		'themeLabel' => esc_html__('Theme Info Page', 'amalie'),
+		'docsURL' => esc_url('http://www.anarieldesign.com/documentation/amalielite/'),
+		'docsLabel'	=> esc_html__('Theme Documentation', 'amalie'),
+		'rateURL' => esc_url('https://wordpress.org/support/view/theme-reviews/amalie-lite?filter=5'),
+		'rateLabel'	=> esc_html__('Rate this theme', 'amalie'),
+	));
+}
+add_action('customize_controls_enqueue_scripts', 'amalie_customizer_js');
