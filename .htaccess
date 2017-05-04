@@ -7,11 +7,19 @@
 
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
+<<<<<<< HEAD
 	
      # php-cgi under Apache does not pass HTTP Basic user/pass to PHP by default
     RewriteCond %{HTTP:Authorization} ^(.+)$
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 	
+=======
+    
+     # php-cgi under Apache does not pass HTTP Basic user/pass to PHP by default
+    RewriteCond %{HTTP:Authorization} ^(.+)$
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    
+>>>>>>> 8132742fac5953219d4a4047bb028d445c3f5ccf
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
