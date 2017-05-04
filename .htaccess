@@ -19,7 +19,11 @@
     RewriteCond %{HTTP:Authorization} ^(.+)$
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
     
+<<<<<<< HEAD
 >>>>>>> 8132742fac5953219d4a4047bb028d445c3f5ccf
+=======
+    
+>>>>>>> 115f793caaf2fcb1d43e785f07a016da4fb1fe52
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
