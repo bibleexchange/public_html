@@ -70,7 +70,7 @@ class Controller {
 		$page_title = "Blog Post";
 		$business = new Business();
 		$template =file_get_contents(view_path() . "/template.php");
-		$body = $Parsedown->text(file_get_contents(posts_path() . "/".$request->params[1].".php"));
+		$body = $this->md->text(file_get_contents(posts_path() . "/".$request->params[1].".php"));
 
 		$replace2 = strtr($template, 
 			[ 
