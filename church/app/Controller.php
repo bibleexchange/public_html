@@ -127,7 +127,7 @@ class StreamController {
 		}
 
 		$type = $file[1];
-
+dd($type);
 		switch($type){
 			case "css":
 				$css = file_get_contents(posts_path() . "/".$file[0].".".$file[1].".php");
