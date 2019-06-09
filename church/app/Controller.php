@@ -120,11 +120,17 @@ class StreamController {
 
 	public function show($request){
 		
-		$file = explode("_", $request->params[1], 2);
+		if(strpos(".", $request->params[1])){
+			$file = explode(".", $request->params[1], 2);
+		}else{
+			$file = explode("_", $request->params[1], 2);	
+		}
+		
+		$type = $file[1];
 
-		switch($file[1]){
+		switch($type){
 			case "css":
-				$css = file_get_contents(posts_path() . "/".$file[0].".".$file[1].".php");
+				$css = file_get_contents(posts_path() . "/".$request->params[1].".php");
 				return $css;
 			break;
 
