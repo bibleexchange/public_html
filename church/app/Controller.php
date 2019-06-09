@@ -4,6 +4,8 @@ class Controller {
 
 	public function __construct(){
 		$this->business = new Business();
+		$this->md = new Parsedown();
+		$this->announcements = $this->md->text(file_get_contents(posts_path() . "/home.php") );
 	}
 
 	public function render($sub_page, $replace = [], $main = "template.php"){
@@ -18,6 +20,9 @@ class Controller {
 		}
 
 		$r['$body'] = strtr($body_template, $r);
+		$r['$announcements'] = $this->announcements;
+		$r['$business_name'] = $this->business->name;
+
 		$replace2 = strtr($template, $r);
 		
 		return $replace2;
@@ -27,7 +32,7 @@ class Controller {
 
 		return $this->render("pages/home.php", [
 				'page_title' => "Home",
-				'business_name' => $this->business->name
+				"home_article" => $this->md->text(file_get_contents(posts_path() . "/home.php") )
 		]);
 	}
 
@@ -40,7 +45,6 @@ class Controller {
 
 		return $this->render("pages/blog_index.php", [
 				'page_title' => "Blog",
-				'business_name' => $this->business->name,
 				'entries' => $entries
 		]);
 	}	
@@ -49,7 +53,6 @@ class Controller {
 
 		return $this->render("pages/edit_blog.php", [
 				'page_title' => "Home",
-				'business_name' => $this->business->name,
 				'text' => file_get_contents(config_path() . "/posts.json"),
 		]);
 	}
@@ -63,16 +66,13 @@ class Controller {
 
 		$page_title = "Blog Post";
 		$business = new Business();
-		$business_name = $business->name;
-		$Parsedown = new Parsedown();
 		$template =file_get_contents(view_path() . "/template.php");
 		$body = $Parsedown->text(file_get_contents(posts_path() . "/".$request->params[1].".php"));
 
 		$replace2 = strtr($template, 
 			[ 
 				'$page_title' => $page_title,
-				'$body' => $body,
-				'$business_name' => $business_name
+				'$body' => $body
 			]
 		);
 		
@@ -94,7 +94,6 @@ class Controller {
 			
 			return $this->render("pages/edit_post.php", [
 				'page_title' => "Editor",
-				'business_name' => $this->business->name,
 				'text' => $text,
 				'uuid' => $request->params[2],
 				'output' => $Parsedown->text($text)
@@ -109,13 +108,20 @@ class Controller {
 
 }
 
-class TestController {
-	public function test($request){
-		dd("test", $request);
-	}
+class StreamController {
+	public function show($request){
+		
+		$file = explode("_", $request->params[1], 2);
 
-	public function test2($request){
-		dd("test2", $request);
+		switch($file[1]){
+			case "css":
+				$css = file_get_contents(posts_path() . "/".$file[0].".".$file[1].".php");
+				return $css;
+			break;
+
+			default:
+					dd("Cannot Find: " . $request->params[1]);
+		}
 	}
 
 }
