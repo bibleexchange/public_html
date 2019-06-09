@@ -1,0 +1,24 @@
+[06-Dec-2018 10:51:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/template-tags.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 12:30:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/template-tags.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/template-tags.php on line 196
+[06-Dec-2018 23:48:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/icon-functions.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[07-Dec-2018 05:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/icon-functions.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22
+[22-May-2019 08:10:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26
+[22-May-2019 17:44:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/inc/back-compat.php on line 26

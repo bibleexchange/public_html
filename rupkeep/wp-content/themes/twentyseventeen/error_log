@@ -1,0 +1,86 @@
+[30-Jul-2018 23:51:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php on line 13
+[30-Sep-2018 01:04:36 UTC] PHP Notice:  Undefined index: wp_version in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/functions.php on line 15
+[30-Sep-2018 01:04:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/functions.php on line 16
+[15-Oct-2018 23:42:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Oct-2018 09:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php on line 13
+[20-Oct-2018 10:38:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/front-page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/front-page.php on line 15
+[20-Oct-2018 13:00:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/index.php on line 18
+[20-Oct-2018 16:42:59 UTC] PHP Notice:  Undefined index: wp_version in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/functions.php on line 15
+[20-Oct-2018 16:42:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/functions.php on line 16
+[20-Oct-2018 18:32:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/footer.php on line 22
+[20-Oct-2018 20:17:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/archive.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/archive.php on line 13
+[20-Oct-2018 22:17:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/searchform.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/searchform.php on line 13
+[20-Oct-2018 23:36:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/single.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/single.php on line 13
+[21-Oct-2018 01:17:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/header.php on line 16
+[21-Oct-2018 17:08:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Oct-2018 17:24:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/footer.php on line 22
+[28-Oct-2018 03:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/page.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/page.php on line 18
+[01-Nov-2018 01:44:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/sidebar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/sidebar.php on line 13
+[02-Nov-2018 01:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/search.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/search.php on line 13
+[03-Nov-2018 02:07:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/comments.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/comments.php on line 21
+[02-Jun-2019 21:41:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/footer.php on line 22
+[03-Jun-2019 05:07:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jun-2019 12:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentyseventeen/404.php on line 13
