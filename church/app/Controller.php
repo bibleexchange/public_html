@@ -23,7 +23,8 @@ class Controller {
 		$r['$body'] = strtr($body_template, $r);
 		$r['$announcements'] = $this->announcements;
 		$r['$business_name'] = $this->business->name;
-		$r['$main_sidebar'] = $this->main_sidebar;
+		
+		$r['$main_sidebar'] = strtr($this->main_sidebar, $r);
 
 		$replace2 = strtr($template, $r);
 		
