@@ -66,20 +66,11 @@ class Controller {
 	}
 
 	public function post($request){
-
-		$page_title = "Blog Post";
-		$business = new Business();
-		$template =file_get_contents(view_path() . "/template.php");
-		$body = $this->md->text(file_get_contents(posts_path() . "/".$request->params[1].".php"));
-
-		$replace2 = strtr($template, 
-			[ 
-				'$page_title' => $page_title,
-				'$body' => $body
-			]
-		);
 		
-		return $replace2;
+		return $this->render("pages/post.php", [
+				'page_title' => "Blog Post",
+				'post_article' => $this->md->text(file_get_contents(posts_path() . "/".$request->params[1].".php"))
+		]);
 	}	
 
 	public function editPost($request){
