@@ -1,1 +1,0 @@
-[04-Mar-2017 20:12:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/luke1915/public_html/wordpress/wp-content/themes/twentyfourteen/404.php on line 10

@@ -18,8 +18,15 @@
 
 			<div class="holy-grail-sidebar-1 hg-sidebar">
 				<a href="/"><img id="logo" src="/img/logo.jpg" /></a>
-
 				<h1>$business_name </h1>
+				
+				<div class="mixlr"></div>
+
+				<div id="message-board" style="display:none">
+					<iframe name="mixlr-player" src="http://mixlr.com/v2/embed/deliverance-center?width=640" scrolling="no" frameborder="no" height="150" width="100%"></iframe>
+				</div>	
+
+				
 
 				<p>930 Old Post Rd Arundle, Maine 04046</p>
 				<p>Call or Text: (207) 774-8192</p>
@@ -77,5 +84,51 @@
 		<footer>
 			<p></p>
 		</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+
+		<!--Start of Zopim Live Chat Script-->
+		<script type="text/javascript">
+		window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+		d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+		_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+		$.src='//v2.zopim.com/?2nMTEqj7SKXalM4FGLK1HM1RULsUaa9f';z.t=+new Date;$.
+		type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+		</script>
+		<!--End of Zopim Live Chat Script-->
+		
+        
+<script>
+
+$(document).ready(function(){
+//10714
+	$.getJSON(
+	'http://api.mixlr.com/users/10714',
+	function(jsonData) {
+	  console.log(jsonData);
+	  sendMessage(jsonData);
+	});
+
+
+});
+
+function sendMessage(data){
+
+
+
+ if(data.is_live === true){
+	var element = document.getElementById("message-board");
+	element.style.display = "block";
+
+  }else {
+
+  }
+
+}
+
+
+</script>
+
 </body>
 </html>
