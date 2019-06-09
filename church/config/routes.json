@@ -6,6 +6,7 @@
 	["edit\\/blog\\/update+", "Controller@editBlogUpdate"],
 	["edit\\/post\\/+[a-zA-Z0-9._-]*+", "Controller@editPost"],
 	["stream\\/+[a-zA-Z0-9._-]*+", "StreamController@show"],
+	["stream", "StreamController@index"],
 	["", "Controller@home"],
 	[".*", "Controller@home"]
 ]

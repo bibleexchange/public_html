@@ -112,6 +112,21 @@ class Controller {
 }
 
 class StreamController {
+	
+	public function index($request){
+			$listing = scandir(posts_path());
+			$x = "<ul>";
+
+				foreach($listing AS $l){
+					if(substr($l,0,1) !== "."){
+						$x .= "<li>".str_replace(".php", "",$l)."</li>";
+					}
+				}
+
+			$x .= "</ul>";
+			return $x;
+	}
+
 	public function show($request){
 		
 		$file = explode("_", $request->params[1], 2);
