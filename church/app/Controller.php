@@ -6,6 +6,7 @@ class Controller {
 		$this->business = new Business();
 		$this->md = new Parsedown();
 		$this->announcements = $this->md->text(file_get_contents(posts_path() . "/announcements.php") );
+		$this->main_sidebar = $this->md->text(file_get_contents(posts_path() . "/main-sidebar.php") );
 	}
 
 	public function render($sub_page, $replace = [], $main = "template.php"){
@@ -22,6 +23,7 @@ class Controller {
 		$r['$body'] = strtr($body_template, $r);
 		$r['$announcements'] = $this->announcements;
 		$r['$business_name'] = $this->business->name;
+		$r['$main_sidebar'] = $this->main_sidebar;
 
 		$replace2 = strtr($template, $r);
 		
