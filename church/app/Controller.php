@@ -5,7 +5,7 @@ class Controller {
 	public function __construct(){
 		$this->business = new Business();
 		$this->md = new Parsedown();
-		$this->announcements = $this->md->text(file_get_contents(posts_path() . "/home.php") );
+		$this->announcements = $this->md->text(file_get_contents(posts_path() . "/announcements.php") );
 	}
 
 	public function render($sub_page, $replace = [], $main = "template.php"){
