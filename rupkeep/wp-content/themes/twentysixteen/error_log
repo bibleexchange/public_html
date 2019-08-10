@@ -67,3 +67,23 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php on line 10
+[06-Jul-2019 17:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php on line 10
+[15-Jul-2019 04:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php on line 10
+[16-Jul-2019 02:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php on line 10
+[16-Jul-2019 02:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php on line 10
+[16-Jul-2019 02:18:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/luke1915/public_html/rupkeep/wp-content/themes/twentysixteen/404.php on line 10

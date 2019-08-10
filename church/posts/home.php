@@ -1,24 +1,20 @@
 <a href="/">
-<img src="/img/welcome.jpg" style="width:50%; margin-bottom:100px;"/>
-<img src="/img/inside-church.jpg" style="width:30%;"/>
+<img src="/img/welcome-church.png" style="width:30%; margin:0; margin-right:15px; margin-bottom: 15px; float:left;"/>
 </a>
-
-<p>The Blythe Family will be with us Sunday through Tuesday (June 9–11).</p>
-
-<img src="/img/blythe.jpg" style="width:80%; margin:auto auto;" />
-
-<p>Sunday will be at our normal times (11:00am and 4:30pm). Monday and Tuesday will be at 6:00pm.</p>
-
-<hr/>
 
 <h2>WE ARE</h2>
 
-<p>Deliverance Center is a Bible believing church family located on Route 1 just across the town line of Arundel, Maine. We are a Full Gospel local church preaching the living Christ to a dying world!</p>
-<p>All Are Welcome</p>
+<p>Deliverance Center House of Prayer is a Bible believing church located on Route 1 just across the town line of Arundel, Maine. </p>
+<p>We are a Full Gospel local church preaching the living Christ to a dying world!</p>
+<p>All Are Welcome.</p>
 
 <hr />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WsSoAiPz-Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<hr/>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfHSt4V-mwsgT3ZFq0hZZZr1SxC-otBQF" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <p><a href="/blog">more</a></p>
 
